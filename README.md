@@ -7,3 +7,5 @@
 Byte-exact tiny stack VM for the make.fun tiny-stack-vm-01 bounty: answers all 40 instances in one run, writing `stdout.bin` + `exit.txt` per instance with exact trap/exit codes.
 
 Run: `node main.ts` (reads `/input`, writes `/output`; or `node main.ts <indir> <outdir>`).
+
+Entry: `node main.ts` — deterministic, no deps.
